@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treact</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
     <script src="./index.js"></script>
-</head>
+    </head>
+
 <body>
     <section id="landing">
         <nav>
@@ -284,38 +286,60 @@
                 <div class="row">
                     
                     <div class="values__description">
-                        <div class="section_tag">VALUES</div>
+                        <div class="section__tag">VALUES</div>
                             <h2 class="section__title">We Always Abide by Our <span class="purple">Principles</span></h2>
                             <div class="section__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
         
                             <div class="values__list">
                                 <div class="value">
                                     <div class="value__title">
-                                        <figure class="value_img--wrapper">
-                                            <img class="value__img" src="./assets/assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
+                                        <figure class="value__img--wrapper">
+                                            <i data-lucide="dollar-sign" class="value__img"></i>
                                         </figure>
                                         <div class="value__name">Affordable</div>
                                     </div>
+                                    <div class="value__para">
+                    We promise to offer you the best rate we can - at par with
+                    the industry standard.
+                  </div>
+                 </div>
 
-                                    
-                                </div>
-                            </div>
-                    </div>
+                           <div class="value">
+                                    <div class="value__title">
+                                        <figure class="value__img--wrapper">
+                                            <i data-lucide="award" class="value__img"></i>
+                                        </figure>
+                                        <div class="value__name">Professionalism</div>
+                                    </div>
+                                    <div class="value__para">
+                                       We assure you that our templates are designed and developed by professionals.
+                  </div>
+                 </div>
+
+                 <button class="btn">Learn More</button>
+                 </div>
+                 </div>
+
+                 <figure class="values__img--wrapper">
+                  <img class="values__img" src="./assets/assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg" alt="">
+                   </figure>
+
                 </div>
             </div>
 
         </section>
 
-        <!--  <section id="pricing">
+          <section id="pricing">
             <div class="container">
                 <div class="row">
-                    
+                    <div class="section__tag">Pricing</div>
+                    <h2></h2>
                 </div>
             </div>
 
         </section>
 
-         <section id="testimonials">
+          <!--<section id="testimonials">
             <div class="container">
                 <div class="row">
                     
@@ -333,5 +357,8 @@
 
         </section> -->
     </main>
+     <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>

@@ -440,4 +440,77 @@ STEPS
 }
 
 
+/* 
+
+VALUES
+
+*/
+
+
+#values .row {
+    display: flex;justify-content: space-between;
+    align-items: center;
+}
+
+.values__description,
+.values__img--wrapper {
+    width: 50%;
+}
+
+#values .section__title {
+    line-height: 1.25;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+#values .btn {
+    margin-top: 48px;
+}
+
+.values__description {
+    padding:  32px 64px 32px 0px;
+}
+
+.value {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.value__img--wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value:nth-child(1) .value__img--wrapper {
+    background-color: rgb(154, 230, 180) ;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+    background-color:rgb(254, 178, 178) ;
+}
+
+.value__title {
+    display: flex;
+    align-items: center;
+}
+
+.value__name {
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+     color: rgb(36, 62, 99);
+}
+
+.value__para {
+margin-top: 16px;
+line-height: 1.625;
+olor: rgb(113, 128, 150);
+}
 
