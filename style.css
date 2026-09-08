@@ -511,6 +511,170 @@ VALUES
 .value__para {
 margin-top: 16px;
 line-height: 1.625;
-olor: rgb(113, 128, 150);
+color: rgb(113, 128, 150);
 }
 
+
+/*
+
+PRISING
+
+*/
+
+#pricing .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pricing .section__title {
+    text-align: center;
+}
+
+#pricing .section__para {
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.plan {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 384px;
+    margin-top: 64px;
+    margin-right: 32px;
+    padding: 8px 32px 32px 32px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: center;
+    color: rgb(26, 32, 44);
+     box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1), 0 1px 2px 0 rgba(0,0,0,0.06);
+}
+
+.plan__stripe {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 8px;
+    border-radius: 8px 8px 0 0;
+}
+
+
+.plan__top {
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-transform: uppercase;
+    line-height: 1.625;
+}
+
+.plan__name,
+.plan__price,
+.plan__duration {
+    font-weight: bold;
+    line-height: 1.625;
+}
+
+.plan__name {
+    font-size: 20px;
+}
+
+.plan__price {
+    font-size: 42px;
+}
+
+.plan__middle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 32px;
+    border-top: 2px solid rgb(229, 231, 235);
+    border-bottom: 2px solid rgb(229, 231, 235) ;
+}
+
+.plan:nth-child(2n+1) .plan__name,
+.plan:nth-child(2n+1) .plan__price,
+.plan:nth-child(2n+1) .plan__target {
+    color: rgb(26, 32, 44);
+}
+
+.plan__target {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+}
+
+.plan__feature {
+    margin-top: 20px;
+    font-weight: 500;
+    color: rgb(113, 128, 150);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.plan__bottom {
+    padding: 32px 16px;
+}
+
+.plan__btn {
+    background-color: rgb(100, 21, 255);
+    padding: 16px 32px;
+    font-weight: 700;
+    color: rgb(247, 250, 252);
+    width: 100%;
+    border-radius: 500px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    cursor: pointer;
+    transition: transform 300ms ease;
+}
+
+.plan__btn:hover {
+    transform: translate(1px, -1px);
+}
+
+.plan:nth-child(2) {
+    background:linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan:nth-child(2) .plan__name,
+.plan:nth-child(2) .plan__price,
+.plan:nth-child(2) .plan__target,
+.plan:nth-child(2) .plan__duration,
+.plan:nth-child(2) .plan__feature {
+    color: rgb(247, 250, 252);
+}
+
+.plan:nth-child(2) .plan__middle {
+    border-top: 2px solid rgb(102, 126, 234);
+    border-bottom: 2px solid rgb(102, 126, 234);
+
+}
+
+.plan:nth-child(1) .plan__stripe,
+.plan:nth-child(1) .plan__btn {
+     color: rgb(247, 250, 252);
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan:nth-child(3) .plan__stripe,
+.plan:nth-child(3) .plan__btn {
+    color: rgb(247, 250, 252);
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
