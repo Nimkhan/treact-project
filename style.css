@@ -20,7 +20,6 @@ img {
     padding: 20px;
     width: 100%;
     height: auto;
-    max-height: 50vh;
 }
 
 ul {
@@ -70,7 +69,6 @@ NAV BAR
 .nav__container {
     width: 100vw;
     max-width: 1200px;
-    padding: 0 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -221,7 +219,6 @@ HEADER
 
 .header__img {
     width: 100%;
-    max-width: 768px;
 }
 
 /* 
@@ -1106,6 +1103,11 @@ TABLETS AND SMALL LAPTOPS
         font-size: 36px;
     }
 
+    .header__description,
+    .headder__img--wrapper {
+        width: 100%;
+    }
+
 }
 
 /*
@@ -1137,6 +1139,11 @@ SMALL PHONES, LARGE SMARTPHONES
 
     .footer__column {
         width: 100%;
+    }
+
+    .start__blob--1;
+    .start__blob--2 {
+        display: none;
     }
 
 }
