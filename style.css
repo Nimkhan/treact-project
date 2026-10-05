@@ -46,7 +46,7 @@ a {
 
 
 h1 {
-  font-size: 48px;  
+  font-size: 54px;  
   font-weight: bold;
   line-height: 1.2;
 }
@@ -214,7 +214,7 @@ HEADER
 }
 
 .header__img--wrapper {
-    width: 100%;
+    max-width: 512px;
 }
 
 .header__img {
@@ -1277,6 +1277,11 @@ SMALL PHONES, LARGE SMARTPHONES
     .step {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .step__number {
+        margin-bottom: 10px;
     }
 
     .testimonials__description {
@@ -1289,6 +1294,15 @@ SMALL PHONES, LARGE SMARTPHONES
 
     .steps__description {
     padding: 0;
+}
+
+.value {
+    align-items: center;
+    text-align: center;
+}
+
+.value__title {
+    justify-content: center;
 }
 
     .footer__columns {
