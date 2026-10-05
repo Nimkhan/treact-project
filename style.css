@@ -1078,9 +1078,9 @@ TABLETS AND SMALL LAPTOPS
         display: none;
     }
 
-    .quality__img--wrapper {
-        width: 100%;
-        margin: 0;
+    .nav__container {
+        padding-left: 32px;
+        padding-right: 32px;
     }
 
 
@@ -1088,11 +1088,7 @@ TABLETS AND SMALL LAPTOPS
         display: block;
     }
 
-    .header .row {
-        flex-direction: column;
-    }
-
-    h1 {
+    .h1 {
         font-size: 30px;
     }
 
@@ -1127,13 +1123,41 @@ TABLETS AND SMALL LAPTOPS
         font-size: 36px;
     }
 
+    .header__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .header__description {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .header__description,
-    .headder__img--wrapper {
+    .header__img--wrapper {
         width: 100%;
     }
 
     .quality__description {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+    }
+
+    .quality__img--wrapper {
         width: 100%;
+        margin: 0;
+    }
+
+    #quality .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .steps__img--wrapper {
@@ -1143,14 +1167,34 @@ TABLETS AND SMALL LAPTOPS
 
     .step {
         text-align: center;
+        flex-direction: column;
+        align-items: center;
     }
+
+    #steps .row {
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+    }
+
+    #values .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.values__list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
     .values__description {
         padding-right: 0;
         width: 100%;
     }
 
-    .value__img--wrapper {
+    .values__img--wrapper {
         width: 100%;
     }
 
@@ -1186,14 +1230,58 @@ SMALL PHONES, LARGE SMARTPHONES
         flex-direction: column;
     }
 
+    .nav__container {
+        padding-left: 52px;
+        padding-right:52px;
+    }
+
+    .container {
+    padding: 50px 0;
+}
+
+    .header__email{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .email__btn {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    #quality .row {
+    flex-direction: column-reverse;
+}
+
+.quality__description,
+.steps__description,
+.values__description {
+    margin-top: 48px;
+}
+
+.quality__description{
+    margin-right: 0;
+}
+
     .step {
         flex-direction: column;
         align-items: center;
     }
 
-    .section__title {
-        font-size: 30px;
+    .testimonials__description {
+        padding-left: 0;
     }
+
+    .section__title {
+        font-size: 24px;
+    }
+
+    .steps__description {
+    padding: 0;
+}
 
     .footer__columns {
         justify-content: center;
